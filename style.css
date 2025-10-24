@@ -1,0 +1,53 @@
+
+.container-post{
+    width: 300px;
+    height: 500px;
+    border: 2px solid red;
+    background-color: rgb(239, 239, 239);
+    border-radius: 25px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.user{
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+}
+.user-info{
+    margin-left: 10px;
+}
+.user-info h3{
+    font-size: 15px;
+}
+.user-info p{
+    font-size: 13px;
+    color: gray;
+}
+.menu-icon{
+    margin-left: auto;
+    cursor: pointer;
+}
+.img-section img{
+    width: 100%;
+    height: auto;
+}
+.interaction{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    gap: 15px;
+   
+}
+.icons{
+    display: flex;
+    gap: 15px;
+}
+.likes{
+    padding: 0 15px;
+    }
+.comment{
+    font-family: "Trirong", serif;
+    padding: 0 15px;
+    font-size: 12px;
+}
